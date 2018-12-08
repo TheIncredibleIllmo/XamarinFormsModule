@@ -10,6 +10,7 @@ namespace XamarinFormsModule.Views
         public MenuPage()
         {
             InitializeComponent();
+
         }
     }
 }

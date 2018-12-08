@@ -20,6 +20,7 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
     <Folder Include="Repositories\" />
+    <Folder Include="Models\BaseVMModels\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MainPage.xaml.cs" />

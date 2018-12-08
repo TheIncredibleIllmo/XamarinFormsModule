@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{68F29DB0-6133-4EF9-A593-B6BB437B1B7B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/ViewModels/MenuViewModel.cs">
     <Files>
-      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="8" Column="4" />
-      <File FileName="XamarinFormsModule/App.xaml" Line="33" Column="35" />
-      <File FileName="XamarinFormsModule/App.xaml.cs" Line="13" Column="35" />
+      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="11" Column="1" />
+      <File FileName="XamarinFormsModule/Views/MenuPage.xaml.cs" Line="12" Column="35" />
+      <File FileName="XamarinFormsModule/ViewModels/MenuViewModel.cs" Line="29" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
