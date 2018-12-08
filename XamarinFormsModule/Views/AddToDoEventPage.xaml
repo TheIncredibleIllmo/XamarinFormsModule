@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsModule.Views.AddToDoEventPage"
+             Title="Add New To Do">
+    
+    <StackLayout Orientation="Vertical" 
+                 HorizontalOptions="FillAndExpand" VerticalOptions="Fill"
+                 Spacing="0" Padding="15">
+        
+        <Entry Placeholder="Title" Text="{Binding CurrentTitle}" HorizontalOptions="FillAndExpand"
+               Margin="0,25,0,0"/>
+                    
+        <Entry Placeholder="Description" Text="{Binding CurrentDescription}" HorizontalOptions="FillAndExpand"
+               Margin="0,25,0,0"/>
+        
+        <Button Text="Save" Style="{StaticResource MenuButton}" VerticalOptions="Fill"
+                HeightRequest="50"
+                Margin="0,25,0,0" 
+                Command="{Binding SaveToDoEventCommand}"/>
+        
+    </StackLayout>
+</ContentPage>

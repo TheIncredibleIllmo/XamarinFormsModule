@@ -1,0 +1,29 @@
+Function=xamarin_timezone_get_data
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj/iPhone/Debug/device-builds/iphone10.6-12.0.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip

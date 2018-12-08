@@ -7,6 +7,7 @@ using Xamarin.Forms;
 using XamarinFormsModule.Interfaces;
 using XamarinFormsModule.Models;
 using XamarinFormsModule.Models.BaseVMModels;
+using XamarinFormsModule.Views;
 
 namespace XamarinFormsModule.ViewModels
 {
@@ -44,11 +45,16 @@ namespace XamarinFormsModule.ViewModels
             await GetToDoEvents();
         }
 
+        /// <summary>
+        /// Gets to do events.
+        /// </summary>
+        /// <returns>The to do events.</returns>
         private async Task GetToDoEvents()
         {
+            //Gets data from Db.
             var dbToDoEventLst = await App.SQLConnection?.Table<ToDoEvent>()
                                                         ?.ToListAsync();
-
+            //Cleans the Collection
             ToDoEventLst = null;
             ToDoEventLst = new ObservableCollection<ToDoEvent>(dbToDoEventLst);
         }
@@ -57,7 +63,7 @@ namespace XamarinFormsModule.ViewModels
         #region COMMANDS_ACTIONS
         private void AddToDoEvent()
         {
-            //_navigationService.PushAsync(new MyPage());
+            _navigationService.PushAsync(new AddToDoEventPage(_getToDoEvents));
         }
         #endregion
     }

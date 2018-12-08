@@ -1,23 +1,15 @@
-﻿<Properties StartupConfiguration="{68F29DB0-6133-4EF9-A593-B6BB437B1B7B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs">
+﻿<Properties StartupConfiguration="{B6DA5B26-E62C-4584-8168-67A05C261D19}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/Views/MenuPage.xaml">
     <Files>
-      <File FileName="XamarinFormsModule/App.xaml.cs" Line="30" Column="1" />
-      <File FileName="XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" Line="45" Column="10" />
+      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="6" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/ViewModels/MenuViewModel.cs" relfile="XamarinFormsModule/ViewModels/MenuViewModel.cs" line="41" column="63" />
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" relfile="XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" line="53" column="1" />
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" relfile="XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" line="42" column="1" />
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.Android/Dependencies/DBServiceAndroid.cs" relfile="XamarinFormsModule.Android/Dependencies/DBServiceAndroid.cs" line="24" column="1" />
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/App.xaml.cs" relfile="XamarinFormsModule/App.xaml.cs" line="30" column="1" />
-      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" relfile="XamarinFormsModule/ViewModels/ToDoBoardViewModel.cs" line="52" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.Android PreferredExecutionTarget="Android.ZY224G3569" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ED7B4F1A-0913-4218-842D-475DCA3EBBFD" />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.2403606dfa3f0c04f3e98cbad742a97b271bac33" />
 </Properties>
