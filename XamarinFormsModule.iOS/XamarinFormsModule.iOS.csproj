@@ -157,4 +157,7 @@
       <Name>XamarinFormsModule</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dependencies\" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{68F29DB0-6133-4EF9-A593-B6BB437B1B7B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/App.xaml.cs">
+    <Files>
+      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="8" Column="4" />
+      <File FileName="XamarinFormsModule/App.xaml" Line="33" Column="35" />
+      <File FileName="XamarinFormsModule/App.xaml.cs" Line="13" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.Android PreferredExecutionTarget="Android.ZY224G3569" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ED7B4F1A-0913-4218-842D-475DCA3EBBFD" />
+</Properties>

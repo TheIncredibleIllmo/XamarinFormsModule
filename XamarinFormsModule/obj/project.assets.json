@@ -351,11 +351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj",
+      "projectUniqueName": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj",
       "projectName": "XamarinFormsModule",
-      "projectPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj",
+      "projectPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj",
       "packagesPath": "/Users/eduardomedina/.nuget/packages/",
-      "outputPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/obj",
+      "outputPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -786,11 +786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.Android/XamarinFormsModule.Android.csproj",
+      "projectUniqueName": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.Android/XamarinFormsModule.Android.csproj",
       "projectName": "XamarinFormsModule.Android",
-      "projectPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.Android/XamarinFormsModule.Android.csproj",
+      "projectPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.Android/XamarinFormsModule.Android.csproj",
       "packagesPath": "/Users/eduardomedina/.nuget/packages/",
-      "outputPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.Android/obj",
+      "outputPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eduardomedina/.config/NuGet/NuGet.Config"
@@ -804,8 +804,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj": {
-              "projectPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj"
+            "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj": {
+              "projectPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj"
             }
           }
         }

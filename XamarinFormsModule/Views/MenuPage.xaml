@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsModule.Views.MenuPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             Title="Menu">
+   
+    <Grid Style="{StaticResource SingleGrid}" Padding="15">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/><!--0:Gallery Button-->
+            <RowDefinition Height="50"/><!--1:Blank Space-->
+            <RowDefinition Height="50"/><!--2:Todo List-->
+        </Grid.RowDefinitions>
+        
+        <!--0:Gallery Button-->
+        <Button Grid.Row="0" Style="{StaticResource MenuButton}"
+                Text="Gallery"/>
+        
+        <!--2:Todo List-->
+        <Button Grid.Row="2" Style="{StaticResource MenuButton}"
+                Text="To Do List"/>
+        
+    </Grid>
+</ContentPage>

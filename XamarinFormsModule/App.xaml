@@ -1,5 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsModule.App">
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsModule.App">
+    
     <Application.Resources>
+        
+        <!--Colors-->
+        <Color x:Key="ListTitleTextColor">#484848</Color>
+        
+        <Color x:Key="MenuButtonColor">
+            <x:Arguments>
+                <x:Double>.28</x:Double><!--R/255-->
+                <x:Double>.85</x:Double><!--G/255-->
+                <x:Double>.96</x:Double><!--B/255-->
+                <x:Double>.3</x:Double><!--A: 0.0 TO 1.0-->
+            </x:Arguments>
+        </Color>
+        
+        <Style x:Key="SingleGrid" TargetType="Grid">
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="RowSpacing" Value="0"/>
+            <Setter Property="ColumnSpacing" Value="0"/>
+        </Style>
+        
+                
+        <Style x:Key="MenuButton" TargetType="Button">
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            <Setter Property="TextColor" Value="{StaticResource ListTitleTextColor}"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource MenuButtonColor}"/>
+        </Style>
+        
+        
     </Application.Resources>
 </Application>

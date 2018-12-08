@@ -724,11 +724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.iOS/XamarinFormsModule.iOS.csproj",
+      "projectUniqueName": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/XamarinFormsModule.iOS.csproj",
       "projectName": "XamarinFormsModule.iOS",
-      "projectPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.iOS/XamarinFormsModule.iOS.csproj",
+      "projectPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/XamarinFormsModule.iOS.csproj",
       "packagesPath": "/Users/eduardomedina/.nuget/packages/",
-      "outputPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule.iOS/obj",
+      "outputPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eduardomedina/.config/NuGet/NuGet.Config"
@@ -742,8 +742,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj": {
-              "projectPath": "/Users/eduardomedina/Projects/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj"
+            "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj": {
+              "projectPath": "/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/XamarinFormsModule.csproj"
             }
           }
         }
