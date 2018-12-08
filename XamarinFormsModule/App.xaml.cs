@@ -1,10 +1,12 @@
 ﻿using System;
 using CommonServiceLocator;
+using SQLite;
 using Unity;
 using Unity.ServiceLocation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinFormsModule.Interfaces;
+using XamarinFormsModule.Models;
 using XamarinFormsModule.Services;
 using XamarinFormsModule.Views;
 
@@ -13,6 +15,8 @@ namespace XamarinFormsModule
 {
     public partial class App : Application
     {
+        public static SQLiteAsyncConnection SQLConnection { get; set; }
+
         public App()
         {
             InitializeComponent();
@@ -22,10 +26,10 @@ namespace XamarinFormsModule
 
             ServiceLocator.SetLocatorProvider(() => new UnityServiceLocator(unityContainer));
 
+            SQLConnection = DependencyService.Get<IDBService>()?.GetConnection();
+            SQLConnection.CreateTableAsync<ToDoEvent>();
 
             MainPage = new NavigationPage(new MenuPage());
-
-            //MainPage = new MainPage();
         }
 
         protected override void OnStart()

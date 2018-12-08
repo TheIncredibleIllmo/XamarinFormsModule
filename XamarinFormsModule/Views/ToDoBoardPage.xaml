@@ -2,7 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsModule.Views.ToDoBoardPage"
-             Title="To Do List">
-    <ContentPage.Content>
-    </ContentPage.Content>
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             Title="To Do List"
+             x:Name="ToDoBoard">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddToDoEventCommand}"  />
+    </ContentPage.ToolbarItems>
+    
+    <ListView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+              HasUnevenRows="true" SeparatorColor="Fuchsia"
+              ItemsSource="{Binding ToDoEventLst}"
+              CachingStrategy="RecycleElement">
+        
+       <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Title}" Detail="{Binding Description}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
