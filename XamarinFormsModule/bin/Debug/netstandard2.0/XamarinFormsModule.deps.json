@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "f3497a25909d06f5676e0372b6308d3a1b5146dc"
+    "signature": "9a8590606bbf284e9bbf4397959118e0b366fea4"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,16 +10,57 @@
       "XamarinFormsModule/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Unity.Container": "5.8.13",
+          "Unity.ServiceLocation": "2.1.2",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "runtime": {
           "XamarinFormsModule.dll": {}
         }
       },
+      "CommonServiceLocator/2.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {
+            "assemblyVersion": "3.3.1.0",
+            "fileVersion": "3.3.1.0"
+          }
+        }
+      },
+      "Unity.Container/5.8.13": {
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {
+            "assemblyVersion": "5.8.13.0",
+            "fileVersion": "5.8.13.0"
+          }
+        }
+      },
+      "Unity.ServiceLocation/2.1.2": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Unity.Abstractions": "3.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
         }
       },
       "Xamarin.Forms/3.1.0.697729": {
@@ -46,6 +87,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CommonServiceLocator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PUYeC0w+gGG9+T1/sREZaKQAXErlakvhHwEmxMmtIVJeULBB7QdF80IXkVFeu8pz4Nzx81N2zfwk4WaVn3PeXg==",
+      "path": "commonservicelocator/2.0.4",
+      "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -59,6 +107,27 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Unity.Abstractions/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Noq6W6cnB+TFgCf9FfgCN9wTVOiKI0eC1tl4dvbA3xg4ZSULKlpXMf2TVM945y/c1KvEdrq19joxHBOBB8rJA==",
+      "path": "unity.abstractions/3.3.1",
+      "hashPath": "unity.abstractions.3.3.1.nupkg.sha512"
+    },
+    "Unity.Container/5.8.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qJp4QptchP7o+wDr9Q47fU+Gtz9muNJng9q3SaUQeIqBQhpwb+Db0DVQb1viC3rylhkPoJ+Vi5B2rh9vSEo0+w==",
+      "path": "unity.container/5.8.13",
+      "hashPath": "unity.container.5.8.13.nupkg.sha512"
+    },
+    "Unity.ServiceLocation/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wy/VphYGw7Dirt3U/9Gu6MSDvpV9e+gxlKvrA2FleIGykiEl2lEOP1gO1k2EO9Eb9Utalbm+/57RTzVYxgjpDA==",
+      "path": "unity.servicelocation/2.1.2",
+      "hashPath": "unity.servicelocation.2.1.2.nupkg.sha512"
     },
     "Xamarin.Forms/3.1.0.697729": {
       "type": "package",

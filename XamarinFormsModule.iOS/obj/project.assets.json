@@ -2,6 +2,49 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.13": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "Unity.ServiceLocation/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -129,6 +172,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Unity.Container": "5.8.13",
+          "Unity.ServiceLocation": "2.1.2",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -140,6 +185,49 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.13": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "Unity.ServiceLocation/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -267,6 +355,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Unity.Container": "5.8.13",
+          "Unity.ServiceLocation": "2.1.2",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -278,6 +368,49 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.13": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "Unity.ServiceLocation/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -405,6 +538,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Unity.Container": "5.8.13",
+          "Unity.ServiceLocation": "2.1.2",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -416,6 +551,49 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Unity.Abstractions/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.8.13": {
+        "type": "package",
+        "dependencies": {
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
+      "Unity.ServiceLocation/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Unity.Abstractions": "3.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.ServiceLocation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -543,6 +721,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Unity.Container": "5.8.13",
+          "Unity.ServiceLocation": "2.1.2",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -555,6 +735,78 @@
     }
   },
   "libraries": {
+    "CommonServiceLocator/2.0.4": {
+      "sha512": "PUYeC0w+gGG9+T1/sREZaKQAXErlakvhHwEmxMmtIVJeULBB7QdF80IXkVFeu8pz4Nzx81N2zfwk4WaVn3PeXg==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.4",
+      "files": [
+        ".signature.p7s",
+        "commonservicelocator.2.0.4.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net46/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netcoreapp2.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "Unity.Abstractions/3.3.1": {
+      "sha512": "6Noq6W6cnB+TFgCf9FfgCN9wTVOiKI0eC1tl4dvbA3xg4ZSULKlpXMf2TVM945y/c1KvEdrq19joxHBOBB8rJA==",
+      "type": "package",
+      "path": "unity.abstractions/3.3.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Unity.Abstractions.dll",
+        "lib/net45/Unity.Abstractions.dll",
+        "lib/net46/Unity.Abstractions.dll",
+        "lib/net47/Unity.Abstractions.dll",
+        "lib/netcoreapp1.0/Unity.Abstractions.dll",
+        "lib/netcoreapp2.0/Unity.Abstractions.dll",
+        "lib/netstandard1.0/Unity.Abstractions.dll",
+        "lib/netstandard2.0/Unity.Abstractions.dll",
+        "unity.abstractions.3.3.1.nupkg.sha512",
+        "unity.abstractions.nuspec"
+      ]
+    },
+    "Unity.Container/5.8.13": {
+      "sha512": "qJp4QptchP7o+wDr9Q47fU+Gtz9muNJng9q3SaUQeIqBQhpwb+Db0DVQb1viC3rylhkPoJ+Vi5B2rh9vSEo0+w==",
+      "type": "package",
+      "path": "unity.container/5.8.13",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Unity.Container.dll",
+        "lib/net45/Unity.Container.dll",
+        "lib/net46/Unity.Container.dll",
+        "lib/net47/Unity.Container.dll",
+        "lib/netcoreapp1.0/Unity.Container.dll",
+        "lib/netcoreapp2.0/Unity.Container.dll",
+        "lib/netstandard1.0/Unity.Container.dll",
+        "lib/netstandard2.0/Unity.Container.dll",
+        "unity.container.5.8.13.nupkg.sha512",
+        "unity.container.nuspec"
+      ]
+    },
+    "Unity.ServiceLocation/2.1.2": {
+      "sha512": "wy/VphYGw7Dirt3U/9Gu6MSDvpV9e+gxlKvrA2FleIGykiEl2lEOP1gO1k2EO9Eb9Utalbm+/57RTzVYxgjpDA==",
+      "type": "package",
+      "path": "unity.servicelocation/2.1.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Unity.ServiceLocation.dll",
+        "lib/net45/Unity.ServiceLocation.dll",
+        "lib/net46/Unity.ServiceLocation.dll",
+        "lib/net47/Unity.ServiceLocation.dll",
+        "lib/netcoreapp1.0/Unity.ServiceLocation.dll",
+        "lib/netcoreapp2.0/Unity.ServiceLocation.dll",
+        "lib/netstandard1.0/Unity.ServiceLocation.dll",
+        "lib/netstandard2.0/Unity.ServiceLocation.dll",
+        "unity.servicelocation.2.1.2.nupkg.sha512",
+        "unity.servicelocation.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.1.0.697729": {
       "sha512": "YlFOM9u8onIRxJwYJ3l+O0wFKqzzrDjDrgnoBr1rct+eaQKU77vFydxvTP+WxYlYzR14hYvyLNC65L84+6ke6w==",
       "type": "package",

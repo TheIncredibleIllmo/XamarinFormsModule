@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CommonServiceLocator;
 using Xamarin.Forms;
+using XamarinFormsModule.Services;
+using XamarinFormsModule.ViewModels;
 
 namespace XamarinFormsModule.Views
 {
@@ -9,8 +11,9 @@ namespace XamarinFormsModule.Views
     {
         public MenuPage()
         {
-            InitializeComponent();
+            BindingContext = ServiceLocator.Current.GetInstance(typeof(MenuViewModel));
 
+            InitializeComponent();
         }
     }
 }

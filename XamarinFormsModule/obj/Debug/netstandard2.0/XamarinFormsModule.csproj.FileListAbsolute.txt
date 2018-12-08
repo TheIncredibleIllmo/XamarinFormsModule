@@ -10,3 +10,4 @@
 /Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/obj/Debug/netstandard2.0/XamarinFormsModule.dll
 /Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/obj/Debug/netstandard2.0/XamarinFormsModule.pdb
 /Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/obj/Debug/netstandard2.0/Views/MenuPage.xaml.g.cs
+/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/obj/Debug/netstandard2.0/Views/ToDoBoardPage.xaml.g.cs

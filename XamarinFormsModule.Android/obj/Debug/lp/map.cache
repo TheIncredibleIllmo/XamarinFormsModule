@@ -25,3 +25,7 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 XamarinFormsModule
 netstandard
+CommonServiceLocator
+Unity.Abstractions
+Unity.Container
+Unity.ServiceLocation

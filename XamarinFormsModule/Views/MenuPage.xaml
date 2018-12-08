@@ -16,11 +16,15 @@
         
         <!--0:Gallery Button-->
         <Button Grid.Row="0" Style="{StaticResource MenuButton}"
-                Text="Gallery"/>
-        
+                Text="Gallery" 
+                Command="{Binding NavigateCommand}" 
+                CommandParameter="Gallery"/>
+       
         <!--2:Todo List-->
         <Button Grid.Row="2" Style="{StaticResource MenuButton}"
-                Text="To Do List"/>
+                Text="To Do List"
+                Command="{Binding NavigateCommand}" 
+                CommandParameter="ToDoList"/>
         
     </Grid>
 </ContentPage>

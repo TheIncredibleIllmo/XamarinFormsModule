@@ -1,6 +1,11 @@
 ﻿using System;
+using CommonServiceLocator;
+using Unity;
+using Unity.ServiceLocation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsModule.Interfaces;
+using XamarinFormsModule.Services;
 using XamarinFormsModule.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -11,6 +16,12 @@ namespace XamarinFormsModule
         public App()
         {
             InitializeComponent();
+
+            var unityContainer = new UnityContainer();
+            unityContainer.RegisterType<INavigationService, NavigationService>();
+
+            ServiceLocator.SetLocatorProvider(() => new UnityServiceLocator(unityContainer));
+
 
             MainPage = new NavigationPage(new MenuPage());
 

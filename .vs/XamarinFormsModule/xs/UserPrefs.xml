@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{68F29DB0-6133-4EF9-A593-B6BB437B1B7B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/ViewModels/MenuViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsModule/Views/MenuPage.xaml">
     <Files>
-      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="11" Column="1" />
-      <File FileName="XamarinFormsModule/Views/MenuPage.xaml.cs" Line="12" Column="35" />
-      <File FileName="XamarinFormsModule/ViewModels/MenuViewModel.cs" Line="29" Column="32" />
+      <File FileName="XamarinFormsModule/Views/MenuPage.xaml" Line="21" Column="45" />
+      <File FileName="XamarinFormsModule/ViewModels/MenuViewModel.cs" Line="36" Column="14" />
+      <File FileName="XamarinFormsModule/App.xaml.cs" Line="21" Column="71" />
+      <File FileName="XamarinFormsModule/Services/NavigationService.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/ViewModels/MenuViewModel.cs" relfile="XamarinFormsModule/ViewModels/MenuViewModel.cs" line="35" column="1" />
+      <Breakpoint file="/Users/eduardomedina/Documents/GitHub/XamarinFormsModule/XamarinFormsModule/Services/NavigationService.cs" relfile="XamarinFormsModule/Services/NavigationService.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XamarinFormsModule.Android PreferredExecutionTarget="Android.ZY224G3569" />
